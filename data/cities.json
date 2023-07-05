@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -37,18 +25,6 @@
       "id": 98443197
     },
     {
-      "cityName": "Fribourg",
-      "country": "Switzerland",
-      "emoji": "🇨🇭",
-      "date": "2023-07-05T19:34:09.332Z",
-      "notes": "",
-      "position": {
-        "lat": "46.81509864599243",
-        "lng": "7.163085937500001"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Stockholm",
       "country": "Sweden",
       "emoji": "🇸🇪",
@@ -59,18 +35,6 @@
         "lng": "18.121948242187504"
       },
       "id": 98443199
-    },
-    {
-      "cityName": "Gaal",
-      "country": "Austria",
-      "emoji": "🇦🇹",
-      "date": "2023-07-05T19:40:02.921Z",
-      "notes": "",
-      "position": {
-        "lat": "47.27550216573706",
-        "lng": "14.644775390625002"
-      },
-      "id": 98443200
     },
     {
       "cityName": "Daneborg",
