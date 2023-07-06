@@ -23,7 +23,6 @@ function reducer(state, action) {
       return { ...state, isLoading: true };
     case "cities/loaded":
       return { ...state, isLoading: false, cities: action.payload };
-
     case "city/loaded":
       return { ...state, isLoading: false, currentCity: action.payload };
     case "city/created":
@@ -38,8 +37,8 @@ function reducer(state, action) {
         ...state,
         isLoading: false,
         cities: state.cities.filter((city) => city.id !== action.payload),
+        currentCity: {},
       };
-
     case "rejected":
       return { ...state, isLoading: false, error: action.payload };
     default:
