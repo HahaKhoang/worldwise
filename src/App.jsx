@@ -5,6 +5,12 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
 
+import CityList from "./components/CityList";
+import City from "./components/City";
+import CountryList from "./components/CountryList";
+import Form from "./components/Form";
+import SpinnerFullPage from "./components/SpinnerFullPage";
+
 // import Product from "./pages/Product";
 // import Pricing from "./pages/Pricing";
 // import Homepage from "./pages/Homepage";
@@ -18,12 +24,6 @@ const Pricing = lazy(() => import("./pages/Pricing"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Login = lazy(() => import("./pages/Login"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
-
-import CityList from "./components/CityList";
-import City from "./components/City";
-import CountryList from "./components/CountryList";
-import Form from "./components/Form";
-import SpinnerFullPage from "./components/SpinnerFullPage";
 
 function App() {
   return (
